@@ -34,8 +34,6 @@ shots: [{
 }]
 ---
 
-<br> <br> <br>
-
 ## Installation
 
 You can install whole tool with just a row of code to execute in your terminal.

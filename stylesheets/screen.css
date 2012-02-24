@@ -90,3 +90,7 @@ img.binaryage-logo {
     left: 540px;
 }
 
+#main-tabs {
+    position: relative;
+    top: 120px;
+}
