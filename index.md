@@ -44,7 +44,7 @@ And you can also update it with executing
   
 ---
   
-## FAQ
+## How to
 
 #### How I can parse a content to my static site?
 
