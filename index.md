@@ -25,7 +25,7 @@ ogmeta: {
     type: "product",
     title: "Restatic",
     url: "http://restatic.binaryage.com",
-    image: "http://www.binaryage.com/shared/img/icons/totalterminal-256.png"
+    image: "/images/restatic64.png"
 }
 shots: [{
     title: "Restatic - new way to parse google docs spreadsheet to your static site.",
@@ -38,7 +38,7 @@ shots: [{
 
 ## Installation
 
-Here will be a one-link installer.
+> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/install.sh)
   
 ---
   
