@@ -34,6 +34,8 @@ shots: [{
 }]
 ---
 
+
+
 ## Installation
 
 Here will be a one-link installer.
