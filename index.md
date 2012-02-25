@@ -76,8 +76,9 @@ Just call 'restatic /path/to/source/dir /path/to/target/dir' and you freshly bui
 #### Inspire in our Restatic bootstrap
 > https://JPalounek@github.com/JPalounek/restatic-bootstrap.git
 
-## Changelog
-This project is too young to have a changelog. And in too progressive development - so wait while we will stabilize it.
+## FAQ
+
+We don't have any questions - ask us on email palounek@binaryage.com :) and your question may be here...
 
 <!--
 <div class="changelogx"></div>
