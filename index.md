@@ -33,16 +33,6 @@ shots: [{
     full: "/shared/img/totalterminal-mainshot-full.png"
 }]
 ---
-
-## Installation
-
-You can install whole tool with just a row of code to execute in your terminal.
-> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/install.sh)
-
-And you can also update it with executing
-> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/update.sh)
-  
----
   
 ## How to
 
@@ -75,6 +65,18 @@ Just call 'restatic /path/to/source/dir /path/to/target/dir' and you freshly bui
 
 #### Inspire in our Restatic bootstrap
 > https://JPalounek@github.com/JPalounek/restatic-bootstrap.git
+
+---
+
+## Installation
+
+You can install whole tool with just a row of code to execute in your terminal.
+> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/install.sh)
+
+And you can also update it with executing
+> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/update.sh)
+  
+---
 
 ## FAQ
 
