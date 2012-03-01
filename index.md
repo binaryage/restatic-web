@@ -38,7 +38,7 @@ shots: [{
 
 #### Why I should use Restatic
 Because it's fast way to fill your page with data from Google documents spreadsheet and its right way how to organize your page content. <br>
-Are you creating webs for clients? So use Restatic as CMS and provide to your clients envronment which they know and are used to work with.
+Are you creating webs for clients? So use Google Documents as CMS and provide to your clients envronment which they know and are used to work with.
 
 #### How I can parse a content to my static site?
 
