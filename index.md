@@ -3,7 +3,7 @@ layout: product2
 title: Restatic is lightweight tool for parsing google spreadsheet content to static sites
 product: restatic
 product_title: Restatic
-product_subtitle: parsing google spreadsheet content to static sites
+product_subtitle: Pump spreadsheet data to your static web!
 note: 
 download: https://github.com/JPalounek/restatic/zipball/master
 downloadtitle: Download v0.2
