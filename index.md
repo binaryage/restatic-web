@@ -5,10 +5,10 @@ product: restatic
 product_title: Restatic
 product_subtitle: Pump spreadsheet data to your static web!
 note: 
-download: https://github.com/JPalounek/restatic/zipball/master
+download: https://github.com/JPalounek/restatic
 downloadtitle: Download v0.2
 downloadsubtitle: Requires OS X 10.6 or higher
-repo: https://JPalounek@github.com/JPalounek/restatic.git
+repo: https://github.com/JPalounek/restatic
 meta_title: Restatic is lightweight tool for parsing google spreadsheet content to static sites
 meta_keywords: restatic,static-site,osx,google-docs,google, binaryage,software,tool
 meta_description: Restatic is lightweight tool for parsing google spreadsheet content to static siteskeyboard shortcut
@@ -21,7 +21,7 @@ fbsdk: 1
 ogmeta: {
     site_name: "BinaryAge website",
     description: "Restatic is lightweight tool for parsing google spreadsheet content to static sites",
-    email: "support@binaryage.com",
+    email: "honza@binaryage.com",
     type: "product",
     title: "Restatic",
     url: "http://restatic.binaryage.com",
@@ -34,7 +34,11 @@ shots: [{
 }]
 ---
   
-## How to
+## How and Why
+
+#### Why I should use Restatic
+Because it's fast way to fill your page with data from Google documents spreadsheet and its right way how to organize your page content. <br>
+Are you creating webs for clients? So use Restatic as CMS and provide to your clients envronment which they know and are used to work with.
 
 #### How I can parse a content to my static site?
 
@@ -103,4 +107,4 @@ We don't have any questions - ask us on email palounek@binaryage.com :) and your
   * [NFinder] (http://phpfashion.com/pohodlne-prochazeni-filesystemem)
 
 #### Source code
-  * [sources are hosted on GitHub](https://JPalounek@github.com/JPalounek/restatic.git)
+  * [sources are hosted on GitHub](https://github.com/JPalounek/restatic)
