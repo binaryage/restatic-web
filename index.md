@@ -49,12 +49,10 @@ It's quite simple. First you should do is configure it - in directory in which y
 and put there these lines
 
 > googleSpreadSheetKey: 0AtkoCAIRJ7BPdGM2Y2tYdV9XRXNsNVVrVnFPeFIwb0E <br>
-> sheetsIds: 1, 2 <br>
 > delimiter: /-, -/ <br>
 
 #### What it means? 
 Google spreadsheet key is key which gave you google when you turned on "Publish to the web" (In File->Publish to the web).
-Sheet ids - means numbers of sheets which you are going to use - don't put there sheet names use just numbers. - it's optional variable
 Delimiter - means separator of cell specification in html - it's optional variable
 
 #### How to write page content?
