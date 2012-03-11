@@ -102,8 +102,8 @@ We don't have any questions - ask me on email jan@binaryage.com :) and your ques
 ## Links
 
 #### These foreign libraries are used in restatic
-  * [Spyc] (http://code.google.com/p/spyc/)
-  * [NFinder] (http://phpfashion.com/pohodlne-prochazeni-filesystemem)
+  * [Spyc](http://code.google.com/p/spyc/)
+  * [NFinder](http://phpfashion.com/pohodlne-prochazeni-filesystemem)
 
 #### Source code
-  * [sources are hosted on GitHub](https://github.com/JPalounek/restatic)
+  * [Sources are hosted on GitHub](https://github.com/JPalounek/restatic)
