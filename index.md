@@ -37,52 +37,53 @@ shots: [{
 ## How and Why
 
 #### Why I should use Restatic
-Because it's fast way to fill your page with data from Google documents spreadsheet and its right way how to organize your page content. <br>
-Are you creating webs for clients? So use Google Documents as CMS and provide to your clients envronment which they know and are used to work with.
+Because it's fast way to fill your page with data from the Google documents spreadsheet and its right way how to organize your page content. <br>
+
+Are you creating webs for clients? So use Google Documents as CMS and provide them envronment which they know and are used to work with.
 
 #### How I can parse a content to my static site?
 
 It's quite simple. First you should do is configure it - in directory in which you decided to put your content create file 
 
-> restatic.yml
+`restatic.yml`
 
 and put there these lines
 
-> googleSpreadSheetKey: 0AtkoCAIRJ7BPdGM2Y2tYdV9XRXNsNVVrVnFPeFIwb0E <br>
-> delimiter: /-, -/ <br>
+`googleSpreadSheetKey: 0AtkoCAIRJ7BPdGM2Y2tYdV9XRXNsNVVrVnFPeFIwb0E`
+`delimiter: /-, -/`
 
 #### What it means? 
 Google spreadsheet key is key which gave you google when you turned on "Publish to the web" (In File->Publish to the web).
-Delimiter - means separator of cell specification in html - it's optional variable
+Delimiter - means separator of cell specification in html - it's optional variable - you shouldnt specify it.
 
 #### How to write page content?
 Just put to html something like
 
-> /-Posts-B2-/
+`/-Posts-B2-/`
 
-Where '/-' and '-/' are separators (delimiters), 'Posts' is page name (gdocs spreadsheet page name), '-' is separator between page name and cell specification, 'B2' is cell name (cell from gdocs spreadsheet on previously specified sheet).
+Where '/-' and '-/' are a separators (delimiters), 'Posts' is a sheet name (gdocs spreadsheet page name), '-' is a separator between sheet name and the cell specification, 'B2' is the cell name (cell from gdocs spreadsheet on previously specified sheet).
 
 #### How to parse data to site?
-Just call 'restatic /path/to/source/dir /path/to/target/dir' and you freshly built site is prepared in target dir.
+Just call 'restatic /path/to/source/dir /path/to/target/dir' and you freshly built site is prepared in target dir. Or go to source directory and run 'restatic -d' and your site will be generate to '_site' directory in source dir.
 
 #### Inspire in our Restatic bootstrap
-> https://JPalounek@github.com/JPalounek/restatic-bootstrap.git
+`https://JPalounek@github.com/JPalounek/restatic-example.git`
 
 ---
 
 ## Installation
 
-You can install whole tool with just a row of code to execute in your terminal.
-> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/install.sh)
+You can install the whole tool with just executing in your terminal this:
+`sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/install.sh)`
 
 And you can also update it with executing
-> sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/update.sh)
+`sudo bash < <(curl -s https://raw.github.com/JPalounek/restatic/master/update.sh)`
   
 ---
 
 ## FAQ
 
-We don't have any questions - ask us on email palounek@binaryage.com :) and your question may be here...
+We don't have any questions - ask me on email jan@binaryage.com :) and your question may be here...
 
 <!--
 <div class="changelogx"></div>
