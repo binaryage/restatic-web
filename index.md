@@ -107,3 +107,6 @@ We don't have any questions - ask me on email jan@binaryage.com :) and your ques
 
 #### Source code
   * [Sources are hosted on GitHub](https://github.com/JPalounek/restatic)
+
+#### Example
+* [Example](http://restatic-example.herokuapp.com/)
