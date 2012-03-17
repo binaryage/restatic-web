@@ -37,11 +37,11 @@ shots: [{
   
 ## Usage
 
-### Use Google spreadsheet as your simple CMS
+### Use Google spreadsheet as a simple CMS
 
-Do you create static web sites for your clients? Do they call you when they need some changes? 
+Do you build static web sites for your clients? Do they call you back when they need some changes?
 
-With Restatic you may leave them editing their data in Google Spreadsheet and regenerate the site when needed. You will provide them with envronment which they know and love (hope your clients are smart enough to love Google Docs).
+With Restatic you may leave them editing their data in Google Spreadsheet and regenerate the site when needed. You will provide them with environment which they know and love - we hope your clients are smart enough to love Google Docs :-)
 
 ### Add markup to your static site
 
