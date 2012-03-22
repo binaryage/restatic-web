@@ -52,6 +52,9 @@ Just put to your html markup pointing to your data, for example `/-Posts-B2-/`
   * 'B2' is the cell address
   * '-' is a separator between sheet name and the cell specification
 
+Here is small visualization
+<img src="/images/restatic_visualisation.png" alt="visualization">
+
 ### Publish your Google spreadsheet
 
 Turn on "Publish to the web" (In File->Publish to the web) and you get the spreadsheet key.
@@ -72,8 +75,26 @@ Or alternatively go to the source directory and run `restatic -d` and your site 
 
 `sudo bash < <(curl -s https://raw.github.com/binaryage/restatic/master/install.sh)`
 
-## Links
+## FAQ
+### How user can update site after spreadsheet change?
+It is definitely possible - see the tool Remote https://github.com/JPalounek/restatic-tools and this blogpost - http://jpalounek.github.com/posts/2012/03/19/serverside-restatic-sites-actualization/
 
+### Do we plan a hosting solution?
+We're thinking about it. Want you have hosting service for your restatic powered sites? <a href="mailto:jan@binaryage.com">Let us know!</a>
+
+### Do we plan windows version?
+No, we don't.
+
+### How to integrate Restatic with Jekyll?
+Easilly - You could run restatic on jekyll generated site.
+
+### How to use multiple spreadsheets?
+We dont have now support for multiple spreadsheets.
+
+### Can I use another data sources?
+You could write your own extractor. Extend the class Extractor and create function extract which will return the associative array with markup in key and data in value - eg. array('/-Posts-2B-/' => 'Hello world')
+
+## Links
 #### 3rd-party libraries used in restatic:
   * [Spyc](http://code.google.com/p/spyc)
   * [NFinder](http://phpfashion.com/pohodlne-prochazeni-filesystemem)
