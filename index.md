@@ -53,7 +53,7 @@ Just put to your html markup pointing to your data, for example `/-Posts-B2-/`
   * '-' is a separator between sheet name and the cell specification
 
 Here is small visualization
-<img src="/images/restatic_visualisation.png" alt="visualization">
+<img src="/images/restatic_visualisation.png" alt="visualization" width="900px">
 
 ### Publish your Google spreadsheet
 
