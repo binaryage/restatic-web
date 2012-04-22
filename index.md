@@ -1,5 +1,5 @@
 ---
-layout: product2
+layout: product
 title: Restatic pumps Google spreadsheet content to static sites
 product: restatic
 product_title: Restatic
