@@ -6,13 +6,13 @@ product_title: Restatic
 product_subtitle: Pumps spreadsheet data to your static web!
 download: https://github.com/binaryage/restatic
 downloadtitle: Download v0.2
-downloadsubtitle: Requires a POSIX system with PHP
+downloadsubtitle: Requires a POSIX system with NodeJS
 repo: https://github.com/binaryage/restatic
 buttons: <a href="http://restatic-example.herokuapp.com" class="button product-button-thumbup"><div><div>Visit Demo Page<div class="product-specs">And get some inspiration...</div></div></div></a>
 advert: After installation and Firefox restart you can visit the <a href="/test/index.html">FireQuery test page</a>
 meta_title: Restatic pumps Google spreadsheet content to static sites
 meta_keywords: restatic,static-site,osx,google-docs,google,binaryage,software,tool
-meta_description: Restatic is a command-line utitlity for parsing google spreadsheet content and using it for generating a static site
+meta_description: Restatic is a command-line utitlity for parsing google spreadsheet content to your static sites
 meta_image: http://www.binaryage.com/shared/img/icons/restatic-256.png
 facebook: 1
 #retweet: 0
@@ -59,10 +59,10 @@ Here is small visualization
 
 Turn on "Publish to the web" (In File->Publish to the web) and you get the spreadsheet key.
 
-### Configure restatic with restatic.yml
+### Configure restatic with restatic.json
 
-  * `googleSpreadSheetKey: 0AtkoCAIRJ7BPdGM2Y2tYdV9XRXNsNVVrVnFPeFIwb0E`
-  * `delimiter: /-, -/` (optional)
+  * `apiKey: 0AtkoCAIRJ7BPdGM2Y2tYdV9XRXNsNVVrVnFPeFIwb0E`
+  * `delimiter: /-, -/`
 
 ### Call restatic to regenerate your site
 
@@ -73,31 +73,34 @@ Or alternatively go to the source directory and run `restatic -d` and your site 
 
 ## Installation
 
-`sudo bash < <(curl -s https://raw.github.com/binaryage/restatic/master/install.sh)`
+`npm install restatic -g`
 
 ## FAQ
 ### How user can update site after spreadsheet change?
-It is definitely possible - see the tool Remote https://github.com/JPalounek/restatic-tools and this blogpost - http://jpalounek.github.com/posts/2012/03/19/serverside-restatic-sites-actualization/
+We have this feature in roadmap - <a href="mailto:jan@binaryage.com">tell us</a> that you need it!
 
 ### Do we plan a hosting solution?
 We're thinking about it. Want you have hosting service for your restatic powered sites? <a href="mailto:jan@binaryage.com">Let us know!</a>
 
 ### Do we plan windows version?
-No, we don't.
+Restatic is not tested on windows, but it doesn't use any linux specific scripts - so try it.
 
 ### How to integrate Restatic with Jekyll?
 Easilly - You could run restatic on jekyll generated site.
 
 ### How to use multiple spreadsheets?
-We dont have now support for multiple spreadsheets.
+You can run `restatic /source /target fetch` more times with another input data.
 
 ### Can I use another data sources?
-You could write your own extractor. Extend the class Extractor and create function extract which will return the associative array with markup in key and data in value - eg. array('/-Posts-2B-/' => 'Hello world')
+You could write your own extractor. Just create your Extractor (anywhere you want) and specify it in config using "extractor" : "/path/to/FooExtractor.js" - it should contain function extract which will return the associative array with markup in key and data in value - eg. {"/-Posts-2B-/" : "Hello world"}
 
 ## Links
-#### 3rd-party libraries used in restatic:
-  * [Spyc](http://code.google.com/p/spyc)
-  * [NFinder](http://phpfashion.com/pohodlne-prochazeni-filesystemem)
+#### Packages used it restatic
+  * rimraf (~2.0.1) - [Github](https://github.com/isaacs/rimraf)
+  * wrench (~1.3.8) - [Github](https://github.com/ryanmcgrath/wrench-js)
+  * mocha (~1.0.1) - [Github](https://github.com/visionmedia/mocha)
+  * should (~0.6.1) - [Github](https://github.com/visionmedia/should.js)
+  * ansi (~0.1.0) - [Github](https://github.com/TooTallNate/ansi.js)
 
 #### Source code
   * [Sources are hosted on GitHub](https://github.com/binaryage/restatic)
