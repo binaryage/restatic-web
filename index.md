@@ -92,7 +92,7 @@ Easilly - You could run restatic on jekyll generated site.
 You can run `restatic /source /target fetch` more times with another input data.
 
 ### Can I use another data sources?
-You could write your own extractor. Just create your Extractor (anywhere you want) and specify it in config using "extractor" : "/path/to/FooExtractor.js" - it should contain function extract which will return the associative array with markup in key and data in value - eg. {"/-Posts-2B-/" : "Hello world"}
+You could write your own extractor. Just create your Extractor (anywhere you want) and specify it in config using "extractor" : "/path/to/FooExtractor.js" - it should contain function extract which will return the associative array with markup in key and data in value  - eg. {"/-Posts-2B-/" : "Hello world"}
 
 ## Links
 #### Packages used it restatic
