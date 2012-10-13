@@ -13,7 +13,7 @@ advert: After installation and Firefox restart you can visit the <a href="/test/
 meta_title: Restatic pumps Google spreadsheet content to static sites
 meta_keywords: restatic,static-site,osx,google-docs,google,binaryage,software,tool
 meta_description: Restatic is a command-line utitlity for parsing google spreadsheet content to your static sites
-meta_image: http://www.binaryage.com/base/img/icons/restatic-256.png
+meta_image: http://www.binaryage.com/shared/img/icons/restatic-256.png
 facebook: 1
 #retweet: 0
 buzz: 1
@@ -26,12 +26,12 @@ ogmeta: {
     type: "product",
     title: "Restatic",
     url: "http://restatic.binaryage.com",
-    image: "http://www.binaryage.com/base/img/icons/restatic-256.png"
+    image: "http://www.binaryage.com/shared/img/icons/restatic-256.png"
 }
 shots: [{
     title: "Restatic - a new way how to get Google spreadsheet data to your static site",
-    thumb: "/base/img/restatic-mainshot.png",
-    full: "/base/img/restatic-mainshot-full.png"
+    thumb: "/shared/img/restatic-mainshot.png",
+    full: "/shared/img/restatic-mainshot-full.png"
 }]
 ---
   
