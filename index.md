@@ -1,12 +1,12 @@
 ---
-layout: product
+layout: product-home
 title: Restatic pumps Google spreadsheet content to static sites
 product: restatic
 product_title: Restatic
 product_subtitle: Pumps spreadsheet data to your static web!
+product_icon: /shared/img/icons/restatic-256.png
 download: https://github.com/binaryage/restatic
 downloadtitle: Download v0.2
-downloadsubtitle: Requires a POSIX system with NodeJS
 repo: https://github.com/binaryage/restatic
 buttons: <a href="http://restatic-example.herokuapp.com" class="button product-button-thumbup"><div><div>Visit Demo Page<div class="product-specs">And get some inspiration...</div></div></div></a>
 advert: After installation and Firefox restart you can visit the <a href="/test/index.html">FireQuery test page</a>
@@ -14,11 +14,7 @@ meta_title: Restatic pumps Google spreadsheet content to static sites
 meta_keywords: restatic,static-site,osx,google-docs,google,binaryage,software,tool
 meta_description: Restatic is a command-line utitlity for parsing google spreadsheet content to your static sites
 meta_image: http://www.binaryage.com/shared/img/icons/restatic-256.png
-facebook: 1
-#retweet: 0
-buzz: 1
-fbsdk: 1
-#flattr: http://restatic.binaryage.com
+build_tabs: 1
 ogmeta: {
     site_name: "BinaryAge website",
     description: "Restatic pumps Google spreadsheet content to static sites",
@@ -28,14 +24,21 @@ ogmeta: {
     url: "http://restatic.binaryage.com",
     image: "http://www.binaryage.com/shared/img/icons/restatic-256.png"
 }
-shots: [{
-    title: "Restatic - a new way how to get Google spreadsheet data to your static site",
-    thumb: "/shared/img/restatic-mainshot.png",
-    full: "/shared/img/restatic-mainshot-full.png"
-}]
 ---
-  
+
+{% contentfor product-buttons %}
+<div class="product-buttons">
+  <div class="button-container">
+    <a href="{{page.download}}" id="o-download-button" class="button product-button-download">
+      <span><i class="fa fa-download fa-lg"></i>{{page.downloadtitle}}</span>
+    </a>
+  </div>
+</div>
+{% endcontentfor %}
+
 ## Usage
+
+<a href="/shared/img/restatic-mainshot-full.png"><img src="/shared/img/restatic-mainshot-full.png" width="800"></a>
 
 ### Use Google spreadsheet as a simple CMS
 
